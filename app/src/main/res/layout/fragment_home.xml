@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:overScrollMode="never"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/brand_color">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/what_do_you_want_to_watch"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_marginTop="4dp"
+            android:textStyle="bold"
+            android:layout_marginHorizontal="24dp"
+            android:fontFamily="@font/poppins"/>
+
+        <TextView
+            android:id="@+id/btn_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/search"
+            android:textSize="14sp"
+            android:textColor="@color/brand_color_2"
+            android:background="@drawable/bg_edit_text"
+            android:paddingVertical="12dp"
+            android:paddingStart="24dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/poppins"
+            android:paddingEnd="12dp"
+            android:drawableEnd="@drawable/ic_search_2"
+            android:layout_marginHorizontal="22dp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            tools:listitem="@layout/item_top_movies_list"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

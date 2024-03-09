@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Movies App</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="watch_list">Watch list</string>
+    <string name="what_do_you_want_to_watch">What do you want to watch?</string>
+    <string name="now_playing">Now playing</string>
+    <string name="badland_hunters">Badland Hunters</string>
+    <string name="_9_5">9.5</string>
+    <string name="action">Action</string>
+    <string name="_2019">2019</string>
+    <string name="_139_minutes">139 minutes</string>
+    <string name="there_is_no_movie_yet">There is no movie yet!</string>
+    <string name="find_your_movie_by_type_title_categories_years_etc">Find your movie by Type title,\ncategories, years, etc</string>
+    <string name="detail">Detail</string>
+    <string name="aquaman_and_the_lost_kingdom">Aquaman and the Lost Kingdom</string>
+    <string name="overview">Overview</string>
+    <string name="minutes">... minutes</string>
+    <string name="dots">...</string>
+</resources>
